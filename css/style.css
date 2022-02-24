@@ -1,0 +1,33 @@
+nav li{
+    padding: 12px;
+}
+
+.active{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black; 
+}
+
+div img{
+    margin: 12px;
+    width: 250px;
+    border: 4px solid darkblue;
+}
+
+div img:nth-child(even):hover{
+    /* filter: sepia(); */
+    box-shadow: 10px 10px black;
+    border: dotted; 
+ } 
+
+ h1 {
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ img {
+    min-height: 375px;
+    max-height: 375px;
+    width: 250px;
+ }
